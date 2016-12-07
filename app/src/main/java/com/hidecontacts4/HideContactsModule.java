@@ -60,7 +60,7 @@ public class HideContactsModule implements IXposedHookLoadPackage {
 
         try {
             String[] allCursorClazzes = {
-                    
+
                     "android.database.MatrixCursor",
                     "android.database.CursorWrapper"
             };
